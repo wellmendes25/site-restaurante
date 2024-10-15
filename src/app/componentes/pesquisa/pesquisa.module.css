@@ -1,0 +1,72 @@
+.container_navegacao{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    gap: 24.5px;
+    max-width: 1240px;
+    
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex: 150px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.button span{
+ align-items: center;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 600;
+ padding:0px 5px;
+}
+
+
+.button:focus {
+    background-color: #daa520;
+    outline: none; 
+}
+
+.barra_pesquisa {
+    display: flex;
+    margin: auto;
+}
+
+.barra_pesquisa input{
+    background: url("../../../../public/lupa.png") no-repeat center left 10px;
+    background-size: 30px;
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+    padding-left: 40px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    border: 2px solid #daa520;
+
+}
+
+.barra_pesquisa input:focus{
+    border-color: #daa520;
+    outline: none;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width:1057px) {
+    
+}

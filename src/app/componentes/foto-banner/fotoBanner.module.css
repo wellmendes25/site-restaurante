@@ -1,0 +1,51 @@
+.container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.imagem{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background-color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    
+}
+
+.texto h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 61px;
+    color: white;
+    text-shadow: 
+    0 0 5px #e2e600bd, 
+    0 0 10px #cfe600,  
+    0 0 20px #d7e600,  
+    0 0 40px #eeff00, 
+    0 0 80px #ffd900,  
+    0 0 120px #e5ff00;
+
+}
+
+.texto p{
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+
+/* responsividade */
+@media (max-width:450px) {
+    .texto h1{
+        font-size: 50px;
+    }
+}
